@@ -10,7 +10,7 @@ const colunas = {
         type: Sequelize.STRING,
         allowNull: false
     },
-    empresa: {
+    categoria: {
         type: Sequelize.ENUM('ração', 'brinquedos'),
         allowNull: false
     },
